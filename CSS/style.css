@@ -1,6 +1,7 @@
 body{
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;
+background-color: #E5E5E5;
 }
 
 * {
@@ -11,10 +12,12 @@ body{
     width: 414px;
     height: 92px;
     background-color: #CF2B2B;
+    position: fixed;
+    top:0;
+    left: 0;;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -28,8 +31,72 @@ body{
 
 .topo p:nth-child(2){
     font-size: 18px;
+    
     font-family: 'Righteous', cursive;
     font-weight: 400;
     color: #FFFFFF;   
     margin-left: 21px;
+}
+
+.primeiro{
+    width: 414px;
+}
+
+.primeiro p:nth-child(1){
+    margin-left: 19px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: 123px;
+}
+
+.pratos{
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.opcoes{
+    width: 172px;
+    height: 216px;
+    margin-left: 19px;
+    background-color:  #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.opcoes img{
+    width: 144px;
+    height: 87px;
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.primeiro p:nth-child(2) {
+    height: 23px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+.primeiro p:nth-child(3) {
+    color: #A6A6A6;
+    height: 39px;
+    line-height: 18px;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-weight: 300;
+}
+
+.primeiro p:nth-child(4) {
+    font-size: 16px;
+    height: 19px;
+    margin-top: 5px;
+    margin-left: 14px;
+    font-weight: 400;
 }
