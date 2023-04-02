@@ -20,19 +20,19 @@
         <div class="primeiro">
             <p>Primeiro, seu prato</p>
             <div class="pratos">
-                <div class="opcoes">
+                <div onclick="selecionar1('.op1')" class="opcoes op1">
                 <img src="./imagens/frango_yin_yang 1.png">
                 <p>Frango Yin Yang</p>
                 <p>Um pouco de batata, um pouco de salada</p>
                 <p>R$ 14,90</p>
                 </div>
-                <div class="opcoes">
+                <div onclick="selecionar1('.op2')" class="opcoes op2">
                 <img src="./imagens/frango_creme_milho.jpg">
                 <p>Creme de milho</p>
                 <p>Um pouco de frango, um pouco creme</p>
                 <p>R$ 15,40</p>
                 </div>
-                <div class="opcoes">
+                <div onclick="selecionar1('.op3')" class="opcoes op3">
                 <img src="./imagens/estrogonofe-de-frango-2.jpg">
                 <p>Strogonoff de frango</p>
                 <p>Um pouco de frango, um pouco de strogonoff</p>
@@ -43,19 +43,19 @@
         <div class="segundo">
             <p>Agora, sua bebida</p>
             <div class="pratos">
-                <div class="opcoes2">
+                <div onclick="selecionar2('.op21')" class="opcoes2 op21">
                 <img src="./imagens/coquinha_gelada 1.png">
                 <p>Coquinha gelada</p>
                 <p>Lata 350ml</p>
                 <p>R$ 4,90</p>
                 </div>
-                <div class="opcoes2">
+                <div onclick="selecionar2('.op22')" class="opcoes2 op22">
                  <img src="./imagens/guarana-antarctica.jpg">
                 <p>Guarana gelado</p>
                 <p>Lata 350ml</p>
                 <p>R$ 5,90</p>
                 </div>
-                <div class="opcoes2">
+                <div onclick="selecionar2('.op23')" class="opcoes2 op23">
                 <img src="./imagens/quatro-latas-do-suco.jpg">
                 <p>Suco gelado</p>
                 <p>Lata 350ml</p>
@@ -64,21 +64,21 @@
             </div>
         </div>
         <div class="terceiro">
-            <p>Agora, sua bebida</p>
-            <div class="pratos">
-                <div class="opcoes3">
+            <p>Por fim, sua sobremesa</p>
+            <div class="pratos3">
+                <div onclick="selecionar3('.op31')" class="opcoes3 op31">
                 <img src="./imagens/pudim 1.png">
                 <p>Pudim</p>
                 <p>Apenas</p>
                 <p>R$ 7,90</p>
                 </div>
-                <div class="opcoes3">
+                <div onclick="selecionar3('.op32')" class="opcoes3 op32">
                  <img src="./imagens/pave.jpg">
                  <p>Pave</p>
                  <p>Apenas</p>
                  <p>R$ 9,70</p>
                 </div>
-                <div class="opcoes3">
+                <div onclick="selecionar3('.op33')" class="opcoes3 op33">
                 <img src="./imagens/gelatina_mosaico.jpg">
                 <p>Gelatina</p>
                 <p>Apenas</p>
@@ -92,5 +92,7 @@
         <p>Selecione os 3 itens para fechar o pedido</p>
         </div>
     </div>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>

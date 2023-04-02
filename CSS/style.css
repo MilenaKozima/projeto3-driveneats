@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .topo p:nth-child(1){
@@ -63,6 +64,7 @@ body{
     background-color:  #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    position: relative;
 }
 
 .opcoes img{
@@ -115,12 +117,6 @@ body{
     font-size: 26px;
 }
 
-.pratos{
-    margin-top: 17px;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-}
 
 .opcoes2{
     width: 172px;
@@ -181,11 +177,12 @@ body{
     font-size: 26px;
 }
 
-.pratos{
+.pratos3{
     margin-top: 17px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
+    margin-bottom: px;
 }
 
 .opcoes3{
@@ -243,6 +240,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .elipse{
@@ -264,4 +264,29 @@ body{
     line-height: 23px;
     font-family: 'Roboto', sans-serif;
 }
+
+.selecionado1 {
+    border: 2px solid #32B72F;
+}
+
+.selecionado2 {
+    border: 2px solid #32B72F;
+}
+
+.selecionado3 {
+    border: 2px solid #32B72F;
+}
+
+.desaparecer{
+    display: none;
+}
+
+ion-icon{
+    background-color: #32B72F;
+    position: absolute;
+    left: 144px;
+    bottom: 13px;
+    border-radius: 50px;
+}
+
 
