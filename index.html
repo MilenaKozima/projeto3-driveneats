@@ -20,75 +20,75 @@
         <div class="primeiro">
             <p>Primeiro, seu prato</p>
             <div class="pratos">
-                <div onclick="selecionar1(this)" class="opcoes op1">
+                <div data-test="dish" onclick="selecionar1(this)" class="opcoes op1">
                 <img src="./imagens/frango_yin_yang 1.png">
-                <p class="n1">Frango Yin Yang</p>
+                <p data-test="item-name">Frango Yin Yang</p>
                 <p>Um pouco de batata, um pouco de salada</p>
-                <p class="p1">R$ 14,90</p>
+                <p data-test="item-price">R$ 14,90</p>
                 </div>
-                <div onclick="selecionar1(this)" class="opcoes op2">
+                <div data-test="dish" onclick="selecionar1(this)" class="opcoes op2">
                 <img src="./imagens/frango_creme_milho.jpg">
-                <p class="n2">Creme de milho</p>
+                <p data-test="item-name">Creme de milho</p>
                 <p>Um pouco de frango, um pouco creme</p>
-                <p class="p2">R$ 15,40</p>
+                <p data-test="item-price">R$ 15,40</p>
                 </div>
-                <div onclick="selecionar1(this) " class="opcoes op3">
+                <div data-test="dish" onclick="selecionar1(this) " class="opcoes op3">
                 <img src="./imagens/estrogonofe-de-frango-2.jpg">
-                <p class="n3">Strogonoff de frango</p>
+                <p data-test="item-name">Strogonoff de frango</p>
                 <p>Um pouco de strogonoff</p>
-                <p class="p3">R$ 16,60</p>
+                <p data-test="item-price">R$ 16,60</p>
                 </div>
             </div>
         </div>
         <div class="segundo">
             <p>Agora, sua bebida</p>
             <div class="pratos">
-                <div onclick="selecionar2(this)" class="opcoes2 op21">
+                <div data-test="drink" onclick="selecionar2(this)" class="opcoes2 op21">
                 <img src="./imagens/coquinha_gelada 1.png">
-                <p>Coquinha gelada</p>
+                <p data-test="item-name">Coquinha gelada</p>
                 <p>Lata 350ml</p>
-                <p>R$ 4,90</p>
+                <p data-test="item-price">R$ 4,90</p>
                 </div>
-                <div onclick="selecionar2(this)" class="opcoes2 op22">
+                <div data-test="drink" onclick="selecionar2(this)" class="opcoes2 op22">
                  <img src="./imagens/guarana-antarctica.jpg">
-                <p>Guarana gelado</p>
+                <p data-test="item-name">Guarana gelado</p>
                 <p>Lata 350ml</p>
-                <p>R$ 5,90</p>
+                <p data-test="item-price">R$ 5,90</p>
                 </div>
-                <div onclick="selecionar2(this)" class="opcoes2 op23">
+                <div data-test="drink" onclick="selecionar2(this)" class="opcoes2 op23">
                 <img src="./imagens/quatro-latas-do-suco.jpg">
-                <p>Suco gelado</p>
+                <p data-test="item-name">Suco gelado</p>
                 <p>Lata 350ml</p>
-                <p>R$ 6,90</p>
+                <p data-test="item-price">R$ 6,90</p>
                 </div>
             </div>
         </div>
         <div class="terceiro">
             <p>Por fim, sua sobremesa</p>
             <div class="pratos3">
-                <div onclick="selecionar3(this)" class="opcoes3 op31">
+                <div data-test="dessert" onclick="selecionar3(this)" class="opcoes3 op31">
                 <img src="./imagens/pudim 1.png">
-                <p>Pudim</p>
+                <p data-test="item-name">Pudim</p>
                 <p>Apenas</p>
-                <p>R$ 7,90</p>
+                <p data-test="item-price">R$ 7,90</p>
                 </div>
-                <div onclick="selecionar3(this)" class="opcoes3 op32">
+                <div data-test="dessert" onclick="selecionar3(this)" class="opcoes3 op32">
                  <img src="./imagens/pave.jpg">
-                 <p>Pave</p>
+                 <p data-test="item-name">Pave</p>
                  <p>Apenas</p>
-                 <p>R$ 9,70</p>
+                 <p data-test="item-price">R$ 9,70</p>
                 </div>
-                <div onclick="selecionar3(this)" class="opcoes3 op33">
+                <div data-test="dessert" onclick="selecionar3(this)" class="opcoes3 op33">
                 <img src="./imagens/gelatina_mosaico.jpg">
-                <p>Gelatina</p>
+                <p data-test="item-name">Gelatina</p>
                 <p>Apenas</p>
-                <p>R$ 5,40</p>
+                <p data-test="item-price">R$ 5,40</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="baixo">
-        <a class="localizar" href="https://wa.me/5544984296962"><button onclick="apertoubotao()" disabled class="elipse">Selecione os três itens para fechar o pedido</button></a>
+        <a class="localizar" href="https://wa.me/5544984296962"><button data-test="order-btn" disabled class="elipse">Selecione os três itens para fechar o pedido</button></a>
     </div>
     <script src="./script.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

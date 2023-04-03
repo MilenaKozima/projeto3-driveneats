@@ -14,15 +14,22 @@ function VerificarSelacao(){
         }
     }
 }
-
+/*
 function apertoubotao(){
-    const mes = prato + bebida + sobremesa;
-    const codURL = fixedEncodeURIComponent(mes);
-    const URL =  "https://wa.me/5544984296962?"+codURL;
-    const teste = document.querySelector('.localizar');
-    teste.setAttribute("href", URL);
+                const nome1 = prato.querySelector('p:nth-child(1)').innerText;
+                const preco1 = number(prato.querySelector('p:nth-child(3)').innerText);
+                const nome2 = bebida.querySelector('p:nth-child(1)').innerText;
+                const preco2 = number(bebida.querySelector('p:nth-child(3)').innerText);
+                const nome3 = sobremesa.querySelector('p:nth-child(1)').innerText;
+                const preco3 = number(sobremesa.querySelector('p:nth-child(3)').innerText);
+                const total = preco1+preco2+preco3;
+                const mens = "Seu pedido:"+nome1+nome2+nome3+total;
+                const codURL = fixedEncodeURIComponent(mens);
+                const URL =  "https://wa.me/5544984296962?text="+codURL;
+                const teste = document.querySelector('.localizar');
+                teste.setAttribute("href", 'URL');
 }
-
+*/
 function selecionar1(seletor) {
     
     prato = seletor.innerHTML;
