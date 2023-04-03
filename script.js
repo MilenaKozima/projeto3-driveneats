@@ -10,11 +10,12 @@ function VerificarSelacao(){
                 elipse.innerHTML = "Fechar pedido";
                 elipse.classList.add('continua');
                 elipse.removeAttribute('disabled');
+                apertoubotao();
             }
         }
     }
 }
-/*
+
 function apertoubotao(){
                 const nome1 = prato.querySelector('p:nth-child(1)').innerText;
                 const preco1 = number(prato.querySelector('p:nth-child(3)').innerText);
@@ -29,7 +30,7 @@ function apertoubotao(){
                 const teste = document.querySelector('.localizar');
                 teste.setAttribute("href", 'URL');
 }
-*/
+
 function selecionar1(seletor) {
     
     prato = seletor.innerHTML;
