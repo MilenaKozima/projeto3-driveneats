@@ -182,7 +182,7 @@ body{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    margin-bottom: px;
+    margin-bottom: 98px;
 }
 
 .opcoes3{
@@ -254,9 +254,10 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #CBCBCB;
+    ;
 }
 
-.elipse p{
+button{
     width: 190px;
     height: 53px;
     font-size: 20px;
@@ -287,6 +288,14 @@ ion-icon{
     left: 144px;
     bottom: 13px;
     border-radius: 50px;
+}
+
+.continua{
+    background-color:  #32B72F;
+}
+
+a{
+    text-decoration: none;
 }
 
 

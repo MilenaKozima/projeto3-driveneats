@@ -20,42 +20,42 @@
         <div class="primeiro">
             <p>Primeiro, seu prato</p>
             <div class="pratos">
-                <div onclick="selecionar1('.op1')" class="opcoes op1">
+                <div onclick="selecionar1(this)" class="opcoes op1">
                 <img src="./imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
+                <p class="n1">Frango Yin Yang</p>
                 <p>Um pouco de batata, um pouco de salada</p>
-                <p>R$ 14,90</p>
+                <p class="p1">R$ 14,90</p>
                 </div>
-                <div onclick="selecionar1('.op2')" class="opcoes op2">
+                <div onclick="selecionar1(this)" class="opcoes op2">
                 <img src="./imagens/frango_creme_milho.jpg">
-                <p>Creme de milho</p>
+                <p class="n2">Creme de milho</p>
                 <p>Um pouco de frango, um pouco creme</p>
-                <p>R$ 15,40</p>
+                <p class="p2">R$ 15,40</p>
                 </div>
-                <div onclick="selecionar1('.op3')" class="opcoes op3">
+                <div onclick="selecionar1(this) " class="opcoes op3">
                 <img src="./imagens/estrogonofe-de-frango-2.jpg">
-                <p>Strogonoff de frango</p>
-                <p>Um pouco de frango, um pouco de strogonoff</p>
-                <p>R$ 16,60</p>
+                <p class="n3">Strogonoff de frango</p>
+                <p>Um pouco de strogonoff</p>
+                <p class="p3">R$ 16,60</p>
                 </div>
             </div>
         </div>
         <div class="segundo">
             <p>Agora, sua bebida</p>
             <div class="pratos">
-                <div onclick="selecionar2('.op21')" class="opcoes2 op21">
+                <div onclick="selecionar2(this)" class="opcoes2 op21">
                 <img src="./imagens/coquinha_gelada 1.png">
                 <p>Coquinha gelada</p>
                 <p>Lata 350ml</p>
                 <p>R$ 4,90</p>
                 </div>
-                <div onclick="selecionar2('.op22')" class="opcoes2 op22">
+                <div onclick="selecionar2(this)" class="opcoes2 op22">
                  <img src="./imagens/guarana-antarctica.jpg">
                 <p>Guarana gelado</p>
                 <p>Lata 350ml</p>
                 <p>R$ 5,90</p>
                 </div>
-                <div onclick="selecionar2('.op23')" class="opcoes2 op23">
+                <div onclick="selecionar2(this)" class="opcoes2 op23">
                 <img src="./imagens/quatro-latas-do-suco.jpg">
                 <p>Suco gelado</p>
                 <p>Lata 350ml</p>
@@ -66,19 +66,19 @@
         <div class="terceiro">
             <p>Por fim, sua sobremesa</p>
             <div class="pratos3">
-                <div onclick="selecionar3('.op31')" class="opcoes3 op31">
+                <div onclick="selecionar3(this)" class="opcoes3 op31">
                 <img src="./imagens/pudim 1.png">
                 <p>Pudim</p>
                 <p>Apenas</p>
                 <p>R$ 7,90</p>
                 </div>
-                <div onclick="selecionar3('.op32')" class="opcoes3 op32">
+                <div onclick="selecionar3(this)" class="opcoes3 op32">
                  <img src="./imagens/pave.jpg">
                  <p>Pave</p>
                  <p>Apenas</p>
                  <p>R$ 9,70</p>
                 </div>
-                <div onclick="selecionar3('.op33')" class="opcoes3 op33">
+                <div onclick="selecionar3(this)" class="opcoes3 op33">
                 <img src="./imagens/gelatina_mosaico.jpg">
                 <p>Gelatina</p>
                 <p>Apenas</p>
@@ -88,9 +88,7 @@
         </div>
     </div>
     <div class="baixo">
-        <div class="elipse">
-        <p>Selecione os 3 itens para fechar o pedido</p>
-        </div>
+        <a class="localizar" href="https://wa.me/5544984296962"><button onclick="apertoubotao()" disabled class="elipse">Selecione os três itens para fechar o pedido</button></a>
     </div>
     <script src="./script.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
