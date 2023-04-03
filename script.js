@@ -10,7 +10,6 @@ function VerificarSelacao(){
                 elipse.innerHTML = "Fechar pedido";
                 elipse.classList.add('continua');
                 elipse.removeAttribute('disabled');
-                apertoubotao();
             }
         }
     }
@@ -24,11 +23,12 @@ function apertoubotao(){
                 const nome3 = sobremesa.querySelector('p:nth-child(1)').innerText;
                 const preco3 = number(sobremesa.querySelector('p:nth-child(3)').innerText);
                 const total = preco1+preco2+preco3;
-                const mens = "Seu pedido:"+nome1+nome2+nome3+total;
-                const codURL = fixedEncodeURIComponent(mens);
-                const URL =  "https://wa.me/5544984296962?text="+codURL;
+                const mens =`Olá gostaria de fazer o pedido:\n- Prato:${nome1} \n- Bebida:${nome2} \n- Sobremesa:${nome3} \n- Total: total ${total}`;
+                window.open("https://wa.me/5544984296962?text=" + encodeURIComponent(mens));
+ /*               const URL =  "https://wa.me/5544984296962?text="+codURL;
                 const teste = document.querySelector('.localizar');
                 teste.setAttribute("href", 'URL');
+                */
 }
 
 function selecionar1(seletor) {
